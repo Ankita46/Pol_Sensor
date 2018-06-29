@@ -16,8 +16,6 @@ $ sudo make install
 
 $ sudo pigpiod
 
-$ sudo ./x_pigpio
-
 $ ./x_pigpio.py
 
 $ ./x_pigs
