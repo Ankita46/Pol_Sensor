@@ -10,7 +10,7 @@ try:
     import struct
 except ImportError:
     import ustruct as struct
-
+#in case no connections are there
 pi=pigpio.pi()
 if not pi.connected:
     exit(0)
